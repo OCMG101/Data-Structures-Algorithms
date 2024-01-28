@@ -3,6 +3,6 @@ This C program demonstrates basic array operations by calculating the sum of int
 
 ## Features
 Summation Function: Calculates the sum of integers in the array. <br>
-Maximum Function: Finds the maximum integer in the array.
-User Input: Takes user input for the length of the array and its elements.
-Error Handling: Ensures non-negative array length input.
+Maximum Function: Finds the maximum integer in the array. <br>
+User Input: Takes user input for the length of the array and its elements. <br>
+Error Handling: Ensures non-negative array length input. 
