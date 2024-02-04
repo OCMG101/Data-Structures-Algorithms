@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+bool containsDuplicate(int nums[], int numsSize) {
+    // Use a hash set to store unique elements
+    int hashSet[100000] = {0}; // Assuming a range of integers
+
+    for (int i = 0; i < numsSize; ++i) {
+        if (hashSet[nums[i]] == 1) {
+            // Element already exists in the hash set
+            return true;
+        } else {
+            // Mark the element as visited in the hash set
+            hashSet[nums[i]] = 1;
+        }
+    }
+
+    // No duplicates found
+    return false;
+}
+
+int main() {
+    int nums[] = {1, 2, 3, 3, 4, 5, 6, 7, 7};
+    int numsSize = sizeof(nums) / sizeof(nums[0]);
+
+    if (containsDuplicate(nums, numsSize)) {
+        printf("Array contains duplicates.\n");
+    } else {
+        printf("Array does not contain duplicates.\n");
+    }
+
+    return 0;
+}
