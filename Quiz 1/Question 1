@@ -26,7 +26,6 @@ int main() {
     
     // Display the results
     printf("Initial Length: %d\n", numsSize);
-    printf("New Length: %d\n", newLength);
     printf("Initial Array: ");
      for (int i = 0; i < numsSize; ++i) {
         printf("%d ", nums[i]);
@@ -36,6 +35,7 @@ int main() {
     for (int i = 0; i < newLength; ++i) {
         printf("%d ", nums[i]);
     }
+    printf("New Length: %d\n", newLength);
 
     return 0;
 }
