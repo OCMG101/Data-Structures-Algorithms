@@ -25,12 +25,12 @@ int main() {
     int newLength = removeDuplicates(nums, numsSize);
     
     // Display the results
-    printf("Initial Length: %d\n", numsSize);
-    printf("Initial Array: ");
+     printf("Initial Array: ");
      for (int i = 0; i < numsSize; ++i) {
         printf("%d ", nums[i]);
     }
     printf("\n");
+    printf("Initial Length: %d\n", numsSize);
     printf("New Length: %d\n", newLength);
     printf("Updated Array: ");
     for (int i = 0; i < newLength; ++i) {
