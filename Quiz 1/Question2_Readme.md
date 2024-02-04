@@ -2,7 +2,7 @@
 This C program rotates an array to the right by a given number of steps (k). The rotation is performed in-place without using additional space.
 
 ## Overview
-The program provides the following features:<br>
+The program has the following features:<br>
 
 Array Rotation: The rotate function is implemented to rotate the array to the right by the specified number of steps (k). 
 It uses the concept of reversing portions of the array to achieve the rotation in-place. <br>
